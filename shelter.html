@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shelter</title>
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- 
+  - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+  
+  <!-- 
+  - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- 
+  - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+  rel="stylesheet">
+  
+  <!-- 
+  - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg fixed-top " data-bs-theme="w-25">
+  <div class="container">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo-wide.png" class="rounded-2  p-0 m-0" width="150" height="40"  alt="" style="float: left;">  
+      </a>
+  
+  <!-- 
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>-->   
+  
+  </button>
+  <div class="en" >
+    <button id="languageButton" class="btne "data-i18n="english" >EN</button>
+    </div>
+  
+    
+  
+    <div class="main1">
+      <input type="checkbox" id="check" />
+      <div class="menuu" >
+        <label for="check" class="btne " >
+          <i class="fa fa-bars d" style="  color: black;"></i>
+        </label></div>
+        <div class="sidebar1">
+          <div class="logo1">
+            <img src="images/logo-wide.png" class="a" width="200" height="50" alt="" >
+          </div>
+          <label for="check" class="btn1-close1">
+              <ion-icon name="close"></ion-icon>
+          </label>
+          <div class="menu1">
+              <ul>
+                  <li>
+                      <ion-icon name="home"></ion-icon>
+                      <a href="./index.html" data-i18n="home">HOME</a>
+                  </li>
+                  <li>
+                      <ion-icon name="information-circle-outline"></ion-icon>
+                      <a href="./aboutbanan.html" data-i18n="about">ABOUT BANAN</a>
+                  </li>
+                  <li class="dropdown">
+                      <ion-icon name="albums"></ion-icon>
+                      <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false" data-i18n="program">
+                          PROGRAMS
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="./liveihoods.html" data-i18n="1">Food Security & Liveihoods</a>
+                          </li>
+                          <li><a class="dropdown-item" href="./health.html" data-i18n="3">Health</a></li>
+                          <li><a class="dropdown-item" href="./education.html" data-i18n="4">Education</a></li>
+                          <li><a class="dropdown-item" href="./environmental.html" data-i18n="5">Environmental sanitation</a>
+                          </li>
+                          <li><a class="dropdown-item" href="./shelter.html" data-i18n="6">Shelter</a></li>
+                          <li><a class="dropdown-item" href="./Training.html" data-i18n="122">Training</a></li>
+                          <li><a class="dropdown-item" href="./economic.html" data-i18n="124">Economic Empowerment</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                    <ion-icon name="newspaper"></ion-icon>
+                    <a href="./news.html" data-i18n="233">CONTACT</a>
+                </li>
+                <li>
+                  <ion-icon name="trophy"></ion-icon>
+                  <a href="./success.html" data-i18n="98">CONTACT</a>
+              </li>
+                  <li>
+                      <ion-icon name="mail"></ion-icon>
+                      <a href="./contact.html" data-i18n="contact">CONTACT</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="socials1">
+              <ul>
+                  <li>
+                      <a href="https://www.facebook.com/Banan1Cor/">
+                          <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.youtube.com/@banancorpo3273">
+                          <ion-icon name="logo-youtube"></ion-icon>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      
+  
+    </div>
+
+  
+  
+  
+  
+  
+  
+  
+  <!-- <select class="select p-1 mt-2">
+    <option value="ar" data-i18n="arabic"selected>AR</option>
+    <option value="en" data-i18n="english" >EN</option>
+   
+  </select>-->
+  
+  
+  <div class="sersh">
+    <input class="beb" type="text" id="searchInput" placeholder="      البحث" style="text-align: center;">
+  
+  
+    <div class="btne"id="searchButton">
+      <button  class="fa fa-search"style=" margin-top: 10px; color: black;"  ></button>	
+    </div>
+    
+  </div>
+  
+  </div>
+  
+  </nav>
+  <script>
+  $(document).ready(function() {
+    $('.dropdown-toggle').click(function(e) {
+      e.preventDefault();
+      $(this).next('.dropdown-menu').slideToggle();
+    });
+  });
+  </script>
+  <script>
+  window.addEventListener('scroll', function() {
+  var navbar = document.querySelector('.navbar');
+  var scrolled = window.scrollY > 0;
+  if (scrolled) {
+  navbar.classList.add('scrolled');
+  } else {
+  navbar.classList.remove('scrolled');
+  }
+  });
+  </script>
+  <script>
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+  const pages = [
+  { name: 'الرئيسية', url: 'home.html' },
+  { name: 'التواصل', url: 'contact.html' },
+  { name: 'الصحة', url: 'health.html' },
+  { name: 'من نحن', url: 'aboutbanan.html' },
+  { name: 'المعيشة', url: 'liveihoods.html' },
+  { name: 'الحمابة', url: 'protection.html' },
+  { name: 'التعليم', url: 'education.html' },
+  { name: 'البيئة', url: 'environmental.html' },
+  { name: 'الايواء', url: 'shelter.html' },
+  { name: 'التدريب', url: 'Training.html' },
+  { name: 'التمكين', url: 'economic.html' },
+  { name: 'ر', url: 'home.html' },
+  { name: 'ت', url: 'contact.html' },
+  { name: 'ص', url: 'health.html' },
+  { name: ' ن', url: 'aboutbanan.html' },
+  { name: 'غ', url: 'liveihoods.html' },
+  { name: 'ح', url: 'protection.html' },
+  { name: 'تع', url: 'education.html' },
+  { name: 'اص', url: 'environmental.html' },
+  { name: 'ي', url: 'shelter.html' },
+  { name: 'تد', url: 'Training.html' },
+  { name: 'تم', url: 'economic.html' },
+  ];
+  
+  searchButton.addEventListener('click', () => {
+  const searchTerm = searchInput.value;
+  const page = pages.find(p => p.name === searchTerm);
+  if (page) {
+  window.location.href = page.url;
+  } else {
+  alert('لم يتم العثور على الصفحة');
+  }
+  });
+  
+  
+  </script>
+  
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <!-- أضف هنا المؤشرات الخاصة بك إن وجدت -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item3 active">
+          <img  src="./assets/images/footer-bg.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-none">
+            <h2 data-i18n="6"> Shelter </h2>
+        
+        
+            <p data-i18n="93"> HOME > Shelter</p>
+          </div>
+          <div class="carousel-caption d-none d-md-block wow pulse">
+            <h2 data-i18n="6"> Shelter </h2>
+        
+          
+            <p data-i18n="93"> HOME > Shelter</p>
+          </div>
+        </div>
+        <!-- أضف هنا عناصر الشرائح الأخرى الخاصة بك -->
+      </div>
+    </div>
+  
+
+
+   
+    
+
+
+
+
+
+
+<section class="section hero has-bg-image" id="home" aria-label="home"
+style="background-image: url('./assets/images/hero-bg.svg')">
+<div class="container">
+
+  <div class="hero-content">
+    <h1 class="h1 section-title" data-i18n="61"style="text-align: start;  font-size: 1.5em;">Food Security & Livelihoods</h1>
+ 
+
+    <p class="hero-text" style="text-align: start;" data-i18n="88">
+      Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
+    </p>
+
+    <h1 class="h1 section-title" data-i18n="142"style="text-align: start;   font-size: 1.5em;">Food Security & Livelihoods</h1>
+  </h2>
+
+  <p class="hero-text" style="text-align: start;" >
+    <div class="card-content">
+
+     
+
+
+      <ul class="card-meta-list"style="margin: 30px;">
+
+        <li class="card-meta-item">
+          <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span"data-i18n="34">13 Lessons</span>
+        </li>
+
+        <li class="card-meta-item">
+          <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span"data-i18n="33">18 Students</span>
+        </li>
+
+      </ul>
+
+ 
+
+    </div>
+  </p>
+
+
+  </div>
+
+
+ 
+  <figure class="hero-banner">
+
+    <div class="img-holder one" style="--width: 270; --height: 300;">
+      <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+    </div>
+
+    <div class="img-holder two" style="--width: 240; --height: 370;">
+      <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+    </div>
+
+  
+
+    <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+
+  </figure>
+
+  
+
+
+  
+
+</div>
+</section>
+<section class="projects " id="projects">
+      
+  <h2  class="title " data-i18n="63" style="text-align: center;  font-size: 2em;">Programs</h2>
+   
+    <div class="content">
+      
+        <div class="project-card course-card"style="width: 300px;">
+            <div class="project-image">
+                <img src="images/slider/30.jpg" />
+            </div>
+            <div class="project-info">
+                <p class="project-category" data-i18n="89">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+                
+            </div>
+            <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                <span class="span">15/ 7/ 2019</span>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Com 09</span>
+              </li>
+
+            </ul>
+        </div>
+        <div class="project-card course-card"style="width: 300px;">
+          <div class="project-image">
+              <img src="images/n/1.jpg" />
+          </div>
+          <div class="project-info">
+              <p class="project-category" data-i18n="151">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+              
+          </div>
+          <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+            <li class="card-meta-item">
+              <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              <span class="span">8/ 10/ 2022</span>
+            </li>
+
+            <li class="card-meta-item">
+              <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+              <span class="span">Com 09</span>
+            </li>
+
+          </ul>
+      </div>
+
+      <div class="project-card course-card"style="width: 300px;">
+        <div class="project-image">
+            <img src="images/n/2.jpg" />
+        </div>
+        <div class="project-info">
+            <p class="project-category" data-i18n="152">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+            
+        </div>
+        <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+          <li class="card-meta-item">
+            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+            <span class="span">8/ 10/ 2022</span>
+          </li>
+
+          <li class="card-meta-item">
+            <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+            <span class="span">Com 09</span>
+          </li>
+
+        </ul>
+    </div>
+    <div class="project-card course-card"style="width: 300px;">
+      <div class="project-image">
+          <img src="images/n/3.jpg" />
+      </div>
+      <div class="project-info">
+          <p class="project-category" data-i18n="153">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+          
+      </div>
+      <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+        <li class="card-meta-item">
+          <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+          <span class="span">5/ 10/ 2022</span>
+        </li>
+
+        <li class="card-meta-item">
+          <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Com 09</span>
+        </li>
+
+      </ul>
+  </div>
+
+  <div class="project-card course-card"style="width: 300px;">
+    <div class="project-image">
+        <img src="images/n/4.jpg" />
+    </div>
+    <div class="project-info">
+        <p class="project-category" data-i18n="154">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+        
+    </div>
+    <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+      <li class="card-meta-item">
+        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+        <span class="span">22/ 9/ 2022</span>
+      </li>
+
+      <li class="card-meta-item">
+        <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+        <span class="span">Com 09</span>
+      </li>
+
+    </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/5.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="155">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">23/ 6/ 2022</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/6.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="156">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">13/ 9/ 2022</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px; ">
+  <div class="project-image">
+      <img src="images/slider/10_n.jpg" />
+  </div>
+  <div class="project-info ">
+      <p class="project-category" data-i18n="75">عدد المستفيدين   1,670  اجمالي المبلغ 9,225,600</p>
+   
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span"> 7/ 8/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/slider/11.jpg ">
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="76">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">24/ 4/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/7.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="157">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">22/ 7/ 2022</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/8.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="158">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">22/ 7/ 2022</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/9.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="159">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">22/ 2/ 2021</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/10.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="160">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">21/ 2/ 2021</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/11.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="161">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">29/ 6/ 2022</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/12.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="162">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">18/ 1/ 2021</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/13.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="163">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">14/ 9/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/14.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="164">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">26/ 10/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/15.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="165">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">13/ 10/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/16.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="166">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">13/ 10/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/17.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="167">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">17/ 5/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/18.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="168">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">27/ 2/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/19.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="169">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">10/ 11/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/20.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="170">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">8/ 11/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/21.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="171">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">27/ 12/ 2020</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/22.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="172">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">10/ 11/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/23.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="173">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">10/ 11/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/24.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="174">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">29/ 10/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/25.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="175">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">29/ 10/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/26.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="176">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">5/ 8/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/27.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="177">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list"style="margin-right: 40px;margin-bottom: 0px;" >
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+      <span class="span">8/ 3/ 2019</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/52.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="210">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">24/ 12/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/53.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="211">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">5/ 12/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/54.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="212">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">14/ 11/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/56.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="214">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">18/ 11/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/60.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="218">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">1/ 1-9/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/62.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="220">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">1/ 1-9/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/68.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="226">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">12/ 6/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/89.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="254">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">27/ 1/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/90.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="255">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">22-23-24/ 1/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/91.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="256">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">22/ 1/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+  
+      <iframe src="https://www.facebook.com/plugins/video.php?height=410&href=https%3A%2F%2Fwww.facebook.com%2FBanan1Cor%2Fvideos%2F1228049330659685%2F&show_text=false&width=560&t=0" width="370" height="300" loading="lazy" class="img-cover"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="257">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">5/ 1/ 2018</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/92.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="258">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">18/ 12/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/93.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="259">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">13/ 12/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/94.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="260">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">13/ 12/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/95.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="261">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">28/ 10/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/96.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="262">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">22/ 10/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/97.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="263">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">10/ 6/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+<div class="project-card course-card"style="width: 300px;">
+  <div class="project-image">
+      <img src="images/n/98.jpg" />
+  </div>
+  <div class="project-info">
+      <p class="project-category" data-i18n="264">عدد المستفيدين 305,638      اجمالي المبلغ 616,131,275</p>
+      
+  </div>
+  <ul class="card-meta-list" style="margin-right: 40px;">
+
+    <li class="card-meta-item">
+      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">28/ 12/ 2017</span>
+    </li>
+
+    <li class="card-meta-item">
+      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+      <span class="span">Com 09</span>
+    </li>
+
+  </ul>
+</div>
+
+    </div>
+</section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footerw" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="images/logo-wide.png" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <p class="footer-brand-text"data-i18n="9">
+            Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
+          </p>
+
+        <!--
+            <div class="wrapperw">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div>
+
+          <div class="wrapperw">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapperw">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">info@eduweb.com</a>
+          </div>
+        -->
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"data-i18n="44">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="58">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="45">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="46">Instructor</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="120">Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="119">Instructor Profile</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link"data-i18n="1190">Purchase Guide</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title"data-i18n="138">Links</p>
+          </li>
+
+          <li>
+            <a href="./index.html" class="footer-link"data-i18n="home">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="./aboutbanan.html" class="footer-link"data-i18n="about">Gallery</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="footer-link"data-i18n="contact">News & Articles</a>
+          </li>
+
+       
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title" data-i18n="contact">Contacts</p>
+
+          <p class="footer-list-text"data-i18n="139">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            
+
+            <button class="btn has-before">
+              <a class="span" href="./contact.html" data-i18n="contact">Contact Us</a>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/Banan1Cor/" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/@banancorpo3273" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright"data-i18n="140">
+          Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link"data-i18n="140">Banan</a>
+        </p>
+        <p class="copyright">
+           <a href="#" class="copyright-link"data-i18n="141">Banan</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <a href="#">
+    <div class="Up">
+    <i class="fa-solid fa-angle-up"></i>
+    
+    </div></a>
+
+
+
+  
+</body>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+<script src="scripts/all.min.js"></script>
+
+<script src="scripts/bootstrap.bundle.min.js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/lang.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- تضمين مكتبة Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</html>

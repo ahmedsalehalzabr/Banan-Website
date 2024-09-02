@@ -1,0 +1,15 @@
+.carousel-caption{
+   
+    border-radius: 20px;
+    bottom: 50%;
+   
+    
+  }
+  .carousel-caption:hover{
+    transition: ease .7s;
+  }
+
+  
+  .carousel-caption h2{
+    font-size: 30px;
+  }
